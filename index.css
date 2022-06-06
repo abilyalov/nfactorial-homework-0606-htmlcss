@@ -1,0 +1,131 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  .spaceBetween {
+    justify-content: space-between;
+  }
+  
+  .jcCenter {
+    justify-content: center;
+  }
+  
+  .jcBetween {
+    justify-content: space-between;
+  }
+  
+  .jcEvenly {
+    justify-content: space-evenly;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .aiCenter {
+    align-items: center;
+  }
+  
+  .m15 {
+    margin: 15px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  .orangeStaticWidth80 {
+    width: 80px;
+    background-color: orange;
+  }
+  
+  .greenStaticWidth20 {
+    width: 20px;
+    background-color: green;
+  }
+  
+  .greenStaticWidth80 {
+    width: 80px;
+    background-color: green;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redFill {
+    flex: 1;
+    background-color: red;
+  }
+  
+  .redStaticWidth80 {
+    width: 80px;
+    background-color: red;
+  }
+  
+  .redSquare {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: blue;
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  
+  .blueStaticWidth80 {
+    width: 80px;
+    background-color: blue;
+  }
+  
+  .greenExample {
+    width: 80px;
+    background-color: green;
+  }
+  
+  .greenLine {
+    width: 100%;
+    height: 20px;
+    background-color: green;
+  }
+  
+  .example3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .example7 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* TODO: Add CSS for the rest of your solution below */
+  
